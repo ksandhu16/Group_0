@@ -41,6 +41,7 @@ In what follows, we present a list of important requirements that the system mus
 * In case an action cannot be performed, the system should let the user know the reason why. For example, if a user enters the wrong credentials, the system should let him/her know that a wrong username or password has been provided.
 * In case a meeting is scheduled, the system should email all group members, as well as the instructor, letting them know when the meeting will take place.
 
+
 ## Technical Overview
 
 ## Use Cases
