@@ -10,7 +10,7 @@ For this project, I will be acting as my own client.
 
 I am a full time faculty member of Seneca's School of Information and Communications Technology.  Over the course of the past four years, I have taught more than ten different courses, including multiple courses in Project management. I have a B.Sc. in Electrical Engineering, as well as M.Sc. and Ph.D. degrees in Telecommunications.
 
-I have programmed in a large number of languages in  my career, including C/C++, MATLAB/Simulink, Python, HTML/CSS/JavaScript, VHDL, Bash, Visual Basic, Assembly, and even Pascal (I am that old!), not to mention other languages that I have used in toy projects. As a programmer, I believe that there is always a proper tool for a given problem.
+I have programmed in a large number of languages in  my career, including C/C++, MATLAB/Simulink, Python, HTML/CSS/JavaScript, VHDL, Bash, Visual Basic, Assembly, and even Pascal (I am that old!), not to mention other languages that I have used in smaller projects. As a programmer, I believe that there is always a proper tool for a given problem.
 
 ### Business Statements
 As a professor at Seneca, I have to work with our current Course Management System: Blackboard. This system has been adopted by a large number of prestigious universities and colleges across North America, such as Cornell University, University of Toronto, and even overseas institutions such as the University of Manchester. Nevertheless, the system's design has a number of flaws that makes some tasks much harder than necessary. Just as an example, it is impossible to export multiple assignments from one course section into another. Any faculty teaching multiple sections of the same course has to export assignments from one section into another one by one.
