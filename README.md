@@ -15,7 +15,7 @@ I have programmed in a large number of languages in  my career, including C/C++,
 ### Business Statements
 As a professor at Seneca, I have to work with our current Course Management System: Blackboard. This system has been adopted by a large number of prestigious universities and colleges across North America, such as Cornell University, University of Toronto, and even overseas institutions such as the University of Manchester. Nevertheless, the system's design has a number of flaws that makes some tasks much harder than necessary. Just as an example, it is impossible to export multiple assignments from one course section into another. Any faculty teaching multiple sections of the same course has to export assignments from one section into another one by one.
 
-In order to make my own life easier in the long term, I have decided to create web applications to replace most of the functionality provided by Blackboard. My first task, which is what is being covered in this project, is to create a tool to allow members of a particular group to schedule meetings with their instructor. This schedulling tool should follow a set of rules that are discussed in the key system requirements below.
+In order to make my own life easier in the long term, I have decided to create web applications to replace most of the functionality provided by Blackboard. My first task, which is what is being covered in this project, is to create a tool to allow members of a particular group to schedule meetings with their instructor. This schedulling tool should follow a set of rules that are discussed in the key system requirements shown below.
 
 
 ### Key System Requirements
