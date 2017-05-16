@@ -6,7 +6,7 @@ Group members:
 ## Project Overview
 
 ### Client information
-For this project, I will be acting as my own client. 
+For this project, I will be acting as my own client. You might have a differet client, or mentor.
 
 I am a full time faculty member of Seneca's School of Information and Communications Technology.  Over the course of the past four years, I have taught more than ten different courses, including multiple courses in Project management. I have a B.Sc. in Electrical Engineering, as well as M.Sc. and Ph.D. degrees in Telecommunications.
 
@@ -43,5 +43,7 @@ In what follows, we present a list of important requirements that the system mus
 
 
 ## Technical Overview
+For draft 2
 
 ## Use Cases
+For final submission
