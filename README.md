@@ -6,7 +6,7 @@ Group members:
 ## Project Overview
 
 ### Client information
-For this project, I will be acting as my own client. 
+For this project, I will be acting as my own client. It might not be the same for your specific case.
 
 I am a full time faculty member of Seneca's School of Information and Communications Technology.  Over the course of the past four years, I have taught more than ten different courses, including multiple courses in Project management. I have a B.Sc. in Electrical Engineering, as well as M.Sc. and Ph.D. degrees in Telecommunications.
 
