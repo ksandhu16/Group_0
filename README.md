@@ -43,7 +43,39 @@ In what follows, we present a list of important requirements that the system mus
 
 
 ## Technical Overview
-For draft 2
+This project consists of a web application to allow students to pick time slots for their meetings with the instructor. As such, it requires a **front-end** for the students to access and perform the necessary actions, as well as a **back-end** for the information to be saved and later used to create dynamic pages. Also, it requires the whole application to be **hosted** and made available to the students. 
+
+In this technical overview, we will discuss the technologies used in each one of these three areas: **front-end**, **back-end**, and **hosting**.
+
+### Front-end
+This web application makes use of **Bootstrap 4**, a popular *HTML*, *CSS*, and *Javascript* framework. This framework is used for the following reasons:
+- It contains components, such as navbars, cards, panels, dropdowns, tabs, etc. These components make it easier to create professional looking websites.
+- It posesses a number of CSS classes to make forms, buttons, and other elements to have a very polished look.
+- It implements a very responsive layout tools based on **Flexbox**, which allows the application to be properly visualized in virtually any resolution. 
+
+Note that we have chosen **Bootstrap 4**, which is still in Alpha, as opposed to  **Bootstrap 3**, which already has a stable release. This was due to the fact that the responsive layout tools have been dramatically changed from **Bootstrap 3** to **Bootstrap 4**. So, as this website has just been created, I decided not to use a framework that would soon be replaced, and probably would require major changes in the code in a few years. 
+
+This web application also uses **JQuery**, an ubiquitous *JavaScript* library. This library was used in this project for three reasons:
+- It is required by Bootstrap
+- It provides the developer with a number of tools to select particular elements and respond to a number of events
+- It allows users to easily send **Ajax** requests to the server. This allow modals to be used to send requests to the server and use the server response to change the current page. This is done, for example, when the user logs in.
+
+### Back-end
+This web application was written using **Django**, a Python web framework that greatly eases the creation of web applications powered by databases. **Django** is a full-stack framework that employes a model-template-view, **MTV**, pattern. In what follows, we explain what each component of the pattern does with regards to this project:
+
+- Templates are written in *HTML* with a few Django tags to allow dynamically created content to be rendered. Templates are extensively used in this project. First, they are used to create a base page that gets extended for particular views. This avoids the need to repeate the same lines of code for elements that are common to multiple views, such as the *navbar* at the top. Second, they are used with tags such as **if-elif-else**, **for**, and **in**, to create dynamically generated  pages, using information in **JSON** format coming from views as explained below.
+- Views are implemented in this proejct as Python functions that are called when a particular URL is entered, or when an **AJAX** request is performed. They return a call to render a template with a set of data in **JSON** format.
+- Models in Django are implemented as Python classes that fully describe tables in the database, as well as methods to interact with the data. They can be translated by the framework into SQL code that will in turn perform CRUD operations into the database. In this project, we make extensive use of models in order to avoid the need to write down SQL code.
+
+The chosen database engine was **SQLite** for the following reasons:
+- The application does only store a few Megabytes of data, and is not expected to have a high concurrency. High-volume of data and high-concurrency are the two factors that normally prevent the use of **SQLite**. 
+- All data is storedin a single file that can be downloaded, or uploaded. This will allow me to easily work off-line in the subway or on planes.
+- It is the default database for Django. Hence, there is no need to change any settings. :)
+
+### Hosting
+The web application is stored in a **Linux Ubuntu 14.04** web server hosted at **Digital Ocean**. It uses **Apache 2** as the server application, **Python 3** (with **Django**) as the server-side scripting language, and **SQLite** as its database engine.
+
+**Digital Ocean** was chosen because they provide an easy and inexpensive method to create *VMs* which can be accessed and controlled via *SSH*. Also, the company has a reputation for reliability (i.e., their servers are seldom offline), and they provide a great number of detailed tutorials about how to set up servers using different configurations with their VMs. 
 
 ## Use Cases
 For final submission
