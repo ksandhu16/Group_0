@@ -1,6 +1,4 @@
 # Group 0
-
-Group members:
 * Marcel Jar
 
 ## Project Overview
