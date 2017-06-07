@@ -17,7 +17,7 @@ In order to make my own life easier in the long term, I have decided to create w
 
 
 ### Key System Requirements
-In what follows, we present a list of important requirements that the system must have in order to solve the bussiness problem:
+In what follows, we present a list of important requirements that the system must have in order to solve the business problem:
 
 #### General Requirements
 * It must be available online 24/7 and be accessible by any registerd BTR490 student, independent of their current location.
@@ -75,5 +75,37 @@ The web application is stored in a **Linux Ubuntu 14.04** web server hosted at *
 
 **Digital Ocean** was chosen because they provide an easy and inexpensive method to create *VMs* which can be accessed and controlled via *SSH*. Also, the company has a reputation for reliability (i.e., their servers are seldom offline), and they provide a great number of detailed tutorials about how to set up servers using different configurations with their VMs. 
 
+## System Components
+
+### Account Management
+Used to create, edit, and delete user accounts. Only faculty personnel is allowed to access it. This component is also used to check if a user has provided the right credentials for authentication purposes.
+
+### Meeting Time Picking Tool
+Used to allow students to pick a meeting time, as well as to allow the instructor to keep track of which groups are meeting at each allocated meeting time.
+
+
 ## Use Cases
-For final submission
+
+### User Login
+**Pre-requisites**: The user has an account in the system and is currently online.  
+**Actor**: Student.  
+**Use Case Successful Post-conditions**: The user is authenticated by the system.  
+
+1. The student clicks on **Login**.
+2. The system brings up a modal for the user to enter his/her credentials.
+3. The user enters his/her credentials and clicks on the **Login** button inside the modal.
+   * The user can cancel this operation by clicking on the **cancel** button inside the modal, or by clicking anywhere outside the modal.
+4. The system checks the rpovided credentials against the database and authenticates the user if there is a match.
+   * The system sends an error message in case authentication fails. The user can the enter his/her credentials again.
+5. After succesfully autenthicating a user, the **Login** button changes to **Settings**, which provides options such as **change password** and **logout**. 
+
+### User Choosing a Meeting Time
+**Pre-requisites**: The user has already discussed the meeting times with his colleagues and is currently online.  
+**Actor**: Student.  
+**Use Case Successful Post-conditions**: A meeting time is allocated to the student's group and all group members get a notification by email.  
+
+1. The student clicks on a specific meeting time, from a pool of meeting times displayed on the meetings tab.
+2. If the meeting time has not been taken by other groups, the system will bring up a modal asking for the student's confirmation.
+   * If the meeting has been taken, the system will bring up an error modal letting the user know that he/she needs to pick a different time.
+3. If the student is logged in, the system will change the meeting status from available to taken and email all group members. 
+   * If the student is not logged in, the system will let the user know that he/she needs to log in to pick a meeting time (see previous use case).
