@@ -1,5 +1,6 @@
 # Group 0
 * Marcel Jar
+* Barb Czegel
 
 ## Project Overview
 
