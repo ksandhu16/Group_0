@@ -42,4 +42,4 @@ In this document, we will present all classes (database tables) that are pertine
 
 The figure below show how different tables are interconnected. Note that the connection between users and groups is a many to many relationship.
 
-![](/images/database.png)
+![](/BTS530/images/database.png)
