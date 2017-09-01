@@ -1,6 +1,6 @@
-# Domain Classes (Class Diagrams)
+# Database Design
 
-In this document, we will present all classes (database tables) that are pertinent to our proof of concept. Note that this is not an Object Oriented design. Therefore, classes contain only properties (but not methods). These properties are explained below as they relate to the database design. At the bottom, we will show an image showcasing how different database tables are interconnected.
+In this document, we will present how all classes for our system, which are described in the domain_classes.md document, translate into a database design. Note that this web application does not follow closely an Object Oriented design paradigm. Therefore, our classes contain only properties (but not methods). These properties are explained below as they relate to the database design. At the bottom, we will show an image showcasing how different database tables are interconnected.
 
 ## User
 * Username - Unique name that identifies the user in the system (String)
