@@ -1,7 +1,7 @@
 # Proof of Concept
 
 ## Proof of Concept (POC) Name:
-Picking a Meeting
+Booking a Meeting
 
 
 ## Functionality in this POC:
