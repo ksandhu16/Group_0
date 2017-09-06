@@ -88,9 +88,9 @@ Used to allow students to pick a meeting time, as well as to allow the instructo
 ## Use Cases
 
 ### User Login
-**Pre-requisites**: The user has an account in the system and is currently online.  
-**Actor**: Student.  
-**Use Case Successful Post-conditions**: The user is authenticated by the system.  
+**Pre-requisites**: The user has an account in the system and is currently online. 
+**Actor**: Student. 
+**Use Case Successful Post-conditions**: The user is authenticated by the system. 
 
 1. The student clicks on **Login**.
 2. The system brings up a modal for the user to enter his/her credentials.
