@@ -88,9 +88,9 @@ Used to allow students to pick a meeting time, as well as to allow the instructo
 ## Use Cases
 
 ### User Login
-**Pre-requisites**: The user has an account in the system and is currently online.  
-**Actor**: Student.  
-**Use Case Successful Post-conditions**: The user is authenticated by the system.  
+**Pre-requisites**: The user has an account in the system and is currently online. 
+**Actor**: Student. 
+**Use Case Successful Post-conditions**: The user is authenticated by the system. 
 
 1. The student clicks on **Login**.
 2. The system brings up a modal for the user to enter his/her credentials.
@@ -101,9 +101,9 @@ Used to allow students to pick a meeting time, as well as to allow the instructo
 5. After succesfully autenthicating a user, the **Login** button changes to **Settings**, which provides options such as **change password** and **logout**. 
 
 ### User Choosing a Meeting Time
-**Pre-requisites**: The user has already discussed the meeting times with his colleagues and is currently online.  
-**Actor**: Student.  
-**Use Case Successful Post-conditions**: A meeting time is allocated to the student's group and all group members get a notification by email.  
+**Pre-requisites**: The user has already discussed the meeting times with his colleagues and is currently online.s
+**Actor**: Student.
+**Use Case Successful Post-conditions**: A meeting time is allocated to the student's group and all group members get a notification by email.
 
 1. The student clicks on a specific meeting time, from a pool of meeting times displayed on the meetings tab.
 2. If the meeting time has not been taken by other groups, the system will bring up a modal asking for the student's confirmation.
